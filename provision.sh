@@ -22,7 +22,7 @@ echo "Installing Apache Tomcat 9.0"
 sudo groupadd tomcat
 sudo useradd -M -s /bin/false -g tomcat -d /opt/tomcat/ tomcat
 cd /tmp
-sudo wget http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.21/bin/apache-tomcat-9.0.21.tar.gz
+sudo wget http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.22/bin/apache-tomcat-9.0.22.tar.gz
 sudo mkdir /opt/tomcat
 sudo tar -xvf apache-tomcat-9.0.21.tar.gz -C /opt/tomcat --strip-components=1
 sleep 5
